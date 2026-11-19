@@ -13,7 +13,7 @@ import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from core.planning import astar, patrol_order, plan  # noqa: E402
+from backend.core.planning import astar, patrol_order, plan  # noqa: E402
 
 CELL = 0.5
 
