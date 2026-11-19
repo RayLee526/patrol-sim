@@ -14,7 +14,7 @@ import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from core.sim import GridMap, Robot, RADIUS  # noqa: E402
+from backend.core.sim import GridMap, Robot, RADIUS  # noqa: E402
 
 
 def open_map(cols=20, rows=12, walls=()):
